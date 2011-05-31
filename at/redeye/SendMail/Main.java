@@ -33,7 +33,7 @@ public class Main extends BaseModuleLauncher
             BaseConfigureLogging(Level.ERROR);
         }
                   
-       root = new LocalRoot("SendMail");        
+      // root = new LocalRoot("SendMail");        
        
        String logging_dir = getStartupParam("logdir");
        
@@ -54,7 +54,7 @@ public class Main extends BaseModuleLauncher
     
     public void run() throws Exception
     {
-        configureLogging();
+        // configureLogging();
         
         Locale loc = Locale.getDefault();
         
